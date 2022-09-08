@@ -1,0 +1,140 @@
+/* Header Section CSS Start */
+header {
+    background: rgb(16, 20, 70);
+    padding: 10px 0;
+}
+header .logo img {
+    width: 110px;
+    height: auto;
+}
+header nav ul {
+    list-style: none;
+    margin: 0 !important;
+    text-align: end;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a {
+    display: inline-block;
+    color: #fff !important;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 69px;
+}
+/* Header Section CSS End */
+/* Banner Section CSS Start */
+.banner {
+    background-image: url("https://i.ibb.co/HVLC09T/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 170px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.593);
+    z-index: -1;
+}
+.banner h1 {
+    font-weight: 500;
+    font-size: 33px;
+    margin-top: 14%;
+}
+.banner p {
+    padding: 2% 0;
+    width: 60%;
+    margin: 0 auto;
+}
+/* Banner Section CSS End */
+/* Team Section CSS Start */
+.team{
+    background: #bac1f3;
+    padding:5% 0 ;
+}
+.team h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.team img {
+    width: 45%;
+    height: 55%;
+}
+.team h6 {
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.team p {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+/* Team Section CSS End */
+/* About Section CSS Start */
+.about {
+    background: #c2d4ea;
+    padding: 5% 0;
+    color: #4f5051;
+}
+.about h2 {
+    margin-bottom: 3%;
+    color: #000;
+}
+.about h4 {
+    color: #000;
+    font-weight: 400;
+}
+.about h5{
+    font-weight: 400;
+}
+/* About Section CSS End */
+/* Contact Section CSS Start */
+.contact{
+    background: #f5f5f5;
+    padding: 5% 0;
+}
+.contact h2{
+    margin-bottom: 30px;
+}
+.contact label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.contact input {
+    width: 65%;
+    padding: 5px 10px;
+    margin-bottom: 11px;
+    border: none;
+    border: 1px solid #7d7d7d;
+    border-radius: 5px;
+}
+.contact textarea {
+    width: 65%;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.contact button.btn-2 {
+    margin-top: 10px;
+    font-weight: 500;
+}
+/* Contact Section CSS End */
+/* Footer Section CSS Start  */
+footer {
+    padding: 2% 0;
+}
+footer p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Footer Section CSS End  */
